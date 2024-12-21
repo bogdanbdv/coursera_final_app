@@ -8,7 +8,12 @@ const Footer = () => {
         <div className="footer-background">
             <div className="footer-container">
                 <div className="footer-content">
-                    <img src={ Logo } alt="Little Lemon logo" />
+                    <div className="copyright">
+                        <img src={ Logo } alt="Little Lemon logo" />
+                        <div className="copyright">
+                            <p>© 2024 Little Lemon. All rights reserved.</p>
+                        </div>
+                    </div>
                     <div className="opening-times">
                         <h5>OPENING TIMES</h5>
                         <ul>
@@ -24,11 +29,11 @@ const Footer = () => {
                             <li>Email: contact@littlelemon.com</li>
                         </ul>
                     </div>
+                </div>
+                {/* <div className="copyright">
+                    <p>© 2024 Little Lemon. All rights reserved.</p>
+                </div> */}
             </div>
-            <div className="copyright">
-                <p>© 2024 Little Lemon. All rights reserved.</p>
-            </div>
-        </div>
         </div>
     </div>
   )
